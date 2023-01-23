@@ -3,7 +3,6 @@
 set -o errexit
 
 pip install --upgrade pip
-pip install --upgrade Pillow
 
 poetry install
 
