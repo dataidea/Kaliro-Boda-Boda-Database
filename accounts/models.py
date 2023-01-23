@@ -14,7 +14,6 @@ class Member(models.Model):
     date_of_issue = models.DateTimeField("date of id card issue")
     date_of_expiry = models.DateTimeField("date of expiry of id card")
     card_no = models.IntegerField()
-    photo = models.ImageField()
 
     def __str__(self):
         return f"{self.surname} {self.given_name}"
