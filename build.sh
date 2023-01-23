@@ -12,6 +12,4 @@ python manage.py migrate
 
 pip install --force-reinstall -U setuptools
 
-if [[ $CREATE_SUPERUSER ]];
-then
-  python world_champ_2022/manage.py createsuperuser --no-input
+python manage.py createsuperuser --no-input
